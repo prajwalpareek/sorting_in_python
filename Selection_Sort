@@ -8,3 +8,6 @@ for j in range(l):
     arr[j],arr[minm] = arr[minm],arr[j]
     
 print(arr)            
+
+
+time comp = O(n2)
