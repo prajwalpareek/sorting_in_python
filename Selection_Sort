@@ -1,0 +1,10 @@
+arr = list(map(int,input().split()))
+l = len(arr)
+for j in range(l):
+    for i in range(j+1,l):
+        minm = j
+        if arr[i]<arr[minm]:
+           minm = i
+    arr[j],arr[minm] = arr[minm],arr[j]
+    
+print(arr)            
